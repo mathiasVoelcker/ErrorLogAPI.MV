@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Packages\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.Library.MV\\ErrorLogAPI.Library.MV.csproj": {}
+  },
+  "projects": {
+    "C:\\Packages\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.Library.MV\\ErrorLogAPI.Library.MV.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Packages\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.Library.MV\\ErrorLogAPI.Library.MV.csproj",
+        "projectName": "ErrorLogAPI.Library.MV",
+        "projectPath": "C:\\Packages\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.Library.MV\\ErrorLogAPI.Library.MV.csproj",
+        "packagesPath": "C:\\Users\\mathias.voelcker\\.nuget\\packages\\",
+        "outputPath": "C:\\Packages\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.Library.MV\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mathias.voelcker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45",
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "dependencies": {
+            "Extensions.MV": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          }
+        },
+        "netstandard2.0": {
+          "dependencies": {
+            "Extensions.MV": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

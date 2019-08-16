@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <Version>1.0.2</Version>
+    <Authors>Mathias Voelcker</Authors>
+    <Company>mvoelcker</Company>
+    <AssemblyName>ErrorLogAPI.MV</AssemblyName>
+    <RootNamespace>ErrorLogAPI.MV</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extensions.MV" Version="1.0.2" />
+    <PackageReference Include="Microsoft.AspNet.WebApi" Version="5.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ErrorLogAPI.Library.MV\ErrorLogAPI.Library.MV.csproj" />
+  </ItemGroup>
+
+</Project>

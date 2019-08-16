@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ErrorLogAPI.Library.MV</id>
+    <version>1.0.0</version>
+    <authors>ErrorLogAPI.Library.MV</authors>
+    <owners>ErrorLogAPI.Library.MV</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Extensions.MV" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.File" version="4.0.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Extensions.MV" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="Serilog.Sinks.File" version="4.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\bin\Debug\net45\ErrorLogAPI.Library.MV.dll" target="lib\net45\ErrorLogAPI.Library.MV.dll" />
+    <file src="C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\bin\Debug\netstandard2.0\ErrorLogAPI.Library.MV.dll" target="lib\netstandard2.0\ErrorLogAPI.Library.MV.dll" />
+  </files>
+</package>

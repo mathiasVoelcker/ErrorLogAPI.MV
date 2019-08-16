@@ -1,0 +1,12 @@
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\bin\Debug\netstandard2.0\ErrorLogAPI.Core.MV.deps.json
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\bin\Debug\netstandard2.0\ErrorLogAPI.Core.MV.dll
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\obj\Debug\netstandard2.0\ErrorLogAPI.Core.MV.csproj.CoreCompileInputs.cache
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\obj\Debug\netstandard2.0\ErrorLogAPI.Core.MV.AssemblyInfoInputs.cache
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\obj\Debug\netstandard2.0\ErrorLogAPI.Core.MV.AssemblyInfo.cs
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\bin\Debug\netstandard2.0\ErrorLogAPI.Library.MV.dll
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\obj\Debug\netstandard2.0\ErrorLogAPI.Core.MV.csprojAssemblyReference.cache
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\bin\Debug\netstandard2.0\ErrorLogAPI.Core.MV.pdb
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\bin\Debug\netstandard2.0\ErrorLogAPI.Library.MV.pdb
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\obj\Debug\netstandard2.0\ErrorLogAPI.Core.MV.csproj.CopyComplete
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\obj\Debug\netstandard2.0\ErrorLogAPI.Core.MV.dll
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Core.MV\obj\Debug\netstandard2.0\ErrorLogAPI.Core.MV.pdb

@@ -1,0 +1,12 @@
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\obj\Debug\net45\ErrorLogAPI.Library.MV.csprojAssemblyReference.cache
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\obj\Debug\net45\ErrorLogAPI.Library.MV.csproj.CoreCompileInputs.cache
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\obj\Debug\net45\ErrorLogAPI.Library.MV.AssemblyInfoInputs.cache
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\obj\Debug\net45\ErrorLogAPI.Library.MV.AssemblyInfo.cs
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\bin\Debug\net45\ErrorLogAPI.Library.MV.dll
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\bin\Debug\net45\ErrorLogAPI.Library.MV.pdb
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\bin\Debug\net45\Extensions.MV.dll
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\bin\Debug\net45\Serilog.dll
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\bin\Debug\net45\Serilog.Sinks.File.dll
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\obj\Debug\net45\ErrorLogAPI.Library.MV.csproj.CopyComplete
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\obj\Debug\net45\ErrorLogAPI.Library.MV.dll
+C:\Packages\ErrorLogAPI.MV\ErrorLogAPI.MV\ErrorLogAPI.Library.MV\obj\Debug\net45\ErrorLogAPI.Library.MV.pdb

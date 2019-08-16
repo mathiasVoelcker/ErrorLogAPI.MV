@@ -1,0 +1,312 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5": {
+      "Extensions.MV/1.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Extensions.MV.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Extensions.MV.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.WebHost": "[5.2.7, 5.3.0)"
+        }
+      },
+      "Microsoft.AspNet.WebApi.Client/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Net.Http.Formatting.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.Core/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Client": "5.2.7"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.dll": {}
+        }
+      },
+      "Microsoft.AspNet.WebApi.WebHost/5.2.7": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.WebApi.Core": "[5.2.7, 5.3.0)"
+        },
+        "compile": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        },
+        "runtime": {
+          "lib/net45/System.Web.Http.WebHost.dll": {}
+        }
+      },
+      "Newtonsoft.Json/6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Serilog/2.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Serilog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.dll": {}
+        }
+      },
+      "Serilog.Sinks.File/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Serilog": "2.5.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Serilog.Sinks.File.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Serilog.Sinks.File.dll": {}
+        }
+      },
+      "ErrorLogAPI.Library.MV/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5",
+        "dependencies": {
+          "Extensions.MV": "1.0.2",
+          "Serilog.Sinks.File": "4.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ErrorLogAPI.Library.MV.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ErrorLogAPI.Library.MV.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Extensions.MV/1.0.2": {
+      "sha512": "MK364IJx81OyARnClEd0L9Ay7z8prvhEB/Ij6NXVLjbvFuGicbBnYGM2RspkjMJugPw6ZCV2bblZ4lChcKwKCw==",
+      "type": "package",
+      "path": "extensions.mv/1.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Extensions.MV.1.0.2.nupkg.sha512",
+        "Extensions.MV.nuspec",
+        "lib/net40/Extensions.MV.dll",
+        "lib/net45/Extensions.MV.dll",
+        "lib/netstandard2.0/Extensions.MV.dll"
+      ]
+    },
+    "Microsoft.AspNet.WebApi/5.2.7": {
+      "sha512": "r+nQLBQ857hw8Mfb5hrlMwr0nb7BE1Fp12LsSIZ9g6NT/hTZj8CYUi2UREfywIsGPQ4EIx14oWp8QPRps/i5CA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Microsoft.AspNet.WebApi.5.2.7.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Client/5.2.7": {
+      "sha512": "/76fAHknzvFqbznS6Uj2sOyE9rJB3PltY+f53TH8dX9RiGhk02EhuFCWljSj5nnqKaTsmma8DFR50OGyQ4yJ1g==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.client/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Microsoft.AspNet.WebApi.Client.5.2.7.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.Client.nuspec",
+        "lib/net45/System.Net.Http.Formatting.dll",
+        "lib/net45/System.Net.Http.Formatting.xml",
+        "lib/netstandard2.0/System.Net.Http.Formatting.dll",
+        "lib/netstandard2.0/System.Net.Http.Formatting.xml",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.dll",
+        "lib/portable-wp8+netcore45+net45+wp81+wpa81/System.Net.Http.Formatting.xml"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.Core/5.2.7": {
+      "sha512": "gM2QzApnHdy1FbKUJ/ROGJSm69P2G+HMoVd/t5Vq1O/zZ5TI4IKC9PX6nUfRt/NHgebZOIWHpB4/4K4inuy4yQ==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.core/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/web.config.transform",
+        "Microsoft.AspNet.WebApi.Core.5.2.7.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.Core.nuspec",
+        "lib/net45/System.Web.Http.dll",
+        "lib/net45/System.Web.Http.xml"
+      ]
+    },
+    "Microsoft.AspNet.WebApi.WebHost/5.2.7": {
+      "sha512": "m3TyD7R/cmbfXqkfgcnE0J/UEKklcPP5gsXR96//vLx2kTnsxuOqNlulJLl+Oto4fZMvhVPFZVR+KG9cLZM/PA==",
+      "type": "package",
+      "path": "microsoft.aspnet.webapi.webhost/5.2.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Microsoft.AspNet.WebApi.WebHost.5.2.7.nupkg.sha512",
+        "Microsoft.AspNet.WebApi.WebHost.nuspec",
+        "lib/net45/System.Web.Http.WebHost.dll",
+        "lib/net45/System.Web.Http.WebHost.xml"
+      ]
+    },
+    "Newtonsoft.Json/6.0.4": {
+      "sha512": "FyQLmEpjsCrEP+znauLDGAi+h6i9YnaMkITlfIoiM4RYyX3nki306bTHsr/0okiIvIc7BJhQTbOAIZVocccFUw==",
+      "type": "package",
+      "path": "newtonsoft.json/6.0.4",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Newtonsoft.Json.6.0.4.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netcore45/Newtonsoft.Json.dll",
+        "lib/netcore45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "Serilog/2.5.0": {
+      "sha512": "JwwkgNYNFKT4kQZ3qBV3VqPgchUg1A6FnlFa9hgyanylwBhJ7eTFl3pgLVxijFEb+oHLImRcMaTsMzBt2AG0aQ==",
+      "type": "package",
+      "path": "serilog/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Serilog.dll",
+        "lib/net45/Serilog.xml",
+        "lib/net46/Serilog.dll",
+        "lib/net46/Serilog.xml",
+        "lib/netstandard1.0/Serilog.dll",
+        "lib/netstandard1.0/Serilog.xml",
+        "lib/netstandard1.3/Serilog.dll",
+        "lib/netstandard1.3/Serilog.xml",
+        "serilog.2.5.0.nupkg.sha512",
+        "serilog.nuspec"
+      ]
+    },
+    "Serilog.Sinks.File/4.0.0": {
+      "sha512": "vBj43RkAbeP1dzoPFR2+LfV5GevDRPDq6265JJBv223lMvT9rfdwe/S/I9ow7aZSLYKfw4qPDw6NW8YwjbDbvg==",
+      "type": "package",
+      "path": "serilog.sinks.file/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Serilog.Sinks.File.4.0.0.nupkg.sha512",
+        "Serilog.Sinks.File.nuspec",
+        "lib/net45/Serilog.Sinks.File.dll",
+        "lib/net45/Serilog.Sinks.File.xml",
+        "lib/netstandard1.3/Serilog.Sinks.File.dll",
+        "lib/netstandard1.3/Serilog.Sinks.File.xml"
+      ]
+    },
+    "ErrorLogAPI.Library.MV/1.0.0": {
+      "type": "project",
+      "path": "../ErrorLogAPI.Library.MV/ErrorLogAPI.Library.MV.csproj",
+      "msbuildProject": "../ErrorLogAPI.Library.MV/ErrorLogAPI.Library.MV.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5": [
+      "ErrorLogAPI.Library.MV >= 1.0.0",
+      "Extensions.MV >= 1.0.2",
+      "Microsoft.AspNet.WebApi >= 5.2.7"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mathias.voelcker\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.2",
+    "restore": {
+      "projectUniqueName": "C:\\Packages\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.MV.csproj",
+      "projectName": "ErrorLogAPI.MV",
+      "projectPath": "C:\\Packages\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.MV.csproj",
+      "packagesPath": "C:\\Users\\mathias.voelcker\\.nuget\\packages\\",
+      "outputPath": "C:\\Packages\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mathias.voelcker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net45"
+      ],
+      "sources": {
+        "C:\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net45": {
+          "projectReferences": {
+            "C:\\Packages\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.Library.MV\\ErrorLogAPI.Library.MV.csproj": {
+              "projectPath": "C:\\Packages\\ErrorLogAPI.MV\\ErrorLogAPI.MV\\ErrorLogAPI.Library.MV\\ErrorLogAPI.Library.MV.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net45": {
+        "dependencies": {
+          "Extensions.MV": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
+          "Microsoft.AspNet.WebApi": {
+            "target": "Package",
+            "version": "[5.2.7, )"
+          }
+        }
+      }
+    }
+  }
+}
